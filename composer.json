@@ -1,0 +1,22 @@
+{
+    "name": "dnsinyukov/google-indexing-api",
+    "description": "The package allows you to use the Google API for indexing allows you to directly notify Google when pages are added or removed.",
+    "autoload": {
+        "psr-4": {
+            "GoogleIndexingApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dnsinyukov",
+            "email": "dnsinyukov@gmail.com"
+        }
+    ],
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "google/apiclient": "^2.0",
+        "vlucas/phpdotenv": "^5.3"
+    }
+}

@@ -1,0 +1,4 @@
+/configs/*.json
+/vendor
+.env
+composer.lock
