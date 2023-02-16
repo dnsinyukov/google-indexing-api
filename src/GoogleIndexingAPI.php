@@ -84,4 +84,9 @@ class GoogleIndexingAPI implements IndexingInterface
 
         return $configs[0] ?? '';
     }
+
+    public function batch(array $urls)
+    {
+        // TODO: Implement batch() method.
+    }
 }
