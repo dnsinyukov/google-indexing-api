@@ -80,7 +80,9 @@ class GoogleIndexingAPI implements IndexingInterface
      */
     private function getAuthConfig()
     {
-        return $_ENV['GOOGLE_AUTH_CONFIG'] ?? '';
+        $configs = glob( __DIR__ . "/../configs/${_ENV['GOOGLE_AUTH_CONFIG']}");
+
+        return $configs[0] ?? '';
     }
 
     public function batch(array $urls)
