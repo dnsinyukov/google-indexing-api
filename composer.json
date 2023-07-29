@@ -3,7 +3,7 @@
     "description": "The package allows you to use the Google API for indexing allows you to directly notify Google when pages are added or removed.",
     "autoload": {
         "psr-4": {
-            "GoogleIndexingApi\\": "src/"
+            "Dnsinyukov\\IndexingApi\\": "src/"
         }
     },
     "authors": [
