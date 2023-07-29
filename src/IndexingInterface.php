@@ -1,6 +1,6 @@
 <?php
 
-namespace Dnsinyukov\GoogleIndexingApi;
+namespace Dnsinyukov\IndexingApi;
 
 interface IndexingInterface
 {

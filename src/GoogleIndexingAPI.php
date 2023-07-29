@@ -1,6 +1,6 @@
 <?php
 
-namespace Dnsinyukov\GoogleIndexingApi;
+namespace Dnsinyukov\IndexingApi;
 
 use Google\Exception;
 use Google_Client;
