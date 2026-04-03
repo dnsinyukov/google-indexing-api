@@ -1,11 +1,11 @@
 <?php
 
-namespace GoogleIndexingApi;
+namespace Dnsinyukov\IndexingApi;
 
 use Google\Exception;
 use Google_Client;
 
-class GoogleIndexingAPI implements IndexingInterface
+class YandexIndexingAPI implements IndexingInterface
 {
     const INDEXING_URL = 'https://indexing.googleapis.com/v3/urlNotifications:publish';
     const URL_UPDATED = 'URL_UPDATED';

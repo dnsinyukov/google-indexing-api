@@ -4,3 +4,4 @@
 composer.lock
 .idea
 /src/urls.txt
+urls.txt
